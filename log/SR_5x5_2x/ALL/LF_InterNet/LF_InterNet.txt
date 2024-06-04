@@ -1,0 +1,371 @@
+2024-05-02 17:57:21,051 - LF_InterNet - INFO - 
+Load Training Dataset ...
+2024-05-02 17:57:21,060 - LF_InterNet - INFO - The number of training data is: 14678
+2024-05-02 17:57:21,060 - LF_InterNet - INFO - 
+Load Validation Dataset ...
+2024-05-02 17:57:21,060 - LF_InterNet - INFO - The number of validation data is: 6
+2024-05-02 17:57:21,060 - LF_InterNet - INFO - 
+Model Initial ...
+2024-05-02 17:57:21,148 - LF_InterNet - INFO - No existing model, starting training from scratch...
+2024-05-02 17:57:22,203 - LF_InterNet - INFO - PARAMETER ...
+2024-05-02 17:57:22,204 - LF_InterNet - INFO - Namespace(angRes_in=5, angRes_out=5, batch_size=8, data_name='ALL', decay_rate=0, device='cuda:0', epoch=51, gamma=0.5, local_rank=0, lr=0.0002, minibatch_for_test=1, model_name='LF_InterNet', n_steps=15, num_workers=2, patch_size_for_test=32, path_for_test='./data_for_test/', path_for_train='./data_for_training/', path_log='./log/', path_pre_pth='./pth/', scale_factor=2, stride_for_test=16, task='SR', use_pre_ckpt=True)
+2024-05-02 17:57:22,204 - LF_InterNet - INFO - 
+Start training...
+2024-05-02 17:57:22,204 - LF_InterNet - INFO - 
+Epoch 1 /51:
+2024-05-02 18:16:18,706 - LF_InterNet - INFO - The 1th Train, loss is: 0.00974, psnr is 40.84248, ssim is 0.94464
+2024-05-02 18:16:18,795 - LF_InterNet - INFO - Saving the epoch_01 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_01_model.pth
+2024-05-02 18:16:47,795 - LF_InterNet - INFO - The 1th Test on Stanford_Gantry, psnr/ssim is 32.21/0.903
+2024-05-02 18:17:53,528 - LF_InterNet - INFO - The 1th Test on HCI_new, psnr/ssim is 32.65/0.869
+2024-05-02 18:17:53,529 - LF_InterNet - INFO - The mean psnr on testsets is 32.42742, mean ssim is 0.88602
+2024-05-02 18:17:53,531 - LF_InterNet - INFO - 
+Epoch 2 /51:
+2024-05-02 18:44:35,738 - LF_InterNet - INFO - The 2th Train, loss is: 0.00718, psnr is 42.83195, ssim is 0.96229
+2024-05-02 18:44:35,790 - LF_InterNet - INFO - Saving the epoch_02 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_02_model.pth
+2024-05-02 18:45:05,586 - LF_InterNet - INFO - The 2th Test on Stanford_Gantry, psnr/ssim is 32.97/0.959
+2024-05-02 18:46:13,276 - LF_InterNet - INFO - The 2th Test on HCI_new, psnr/ssim is 33.13/0.913
+2024-05-02 18:46:13,276 - LF_InterNet - INFO - The mean psnr on testsets is 33.05100, mean ssim is 0.93605
+2024-05-02 18:46:13,277 - LF_InterNet - INFO - 
+Epoch 3 /51:
+2024-05-02 19:12:55,243 - LF_InterNet - INFO - The 3th Train, loss is: 0.00653, psnr is 43.61039, ssim is 0.96890
+2024-05-02 19:12:55,288 - LF_InterNet - INFO - Saving the epoch_03 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_03_model.pth
+2024-05-02 19:13:25,044 - LF_InterNet - INFO - The 3th Test on Stanford_Gantry, psnr/ssim is 34.49/0.961
+2024-05-02 19:14:32,312 - LF_InterNet - INFO - The 3th Test on HCI_new, psnr/ssim is 34.31/0.917
+2024-05-02 19:14:32,312 - LF_InterNet - INFO - The mean psnr on testsets is 34.39982, mean ssim is 0.93884
+2024-05-02 19:14:32,313 - LF_InterNet - INFO - 
+Epoch 4 /51:
+2024-05-02 19:41:09,573 - LF_InterNet - INFO - The 4th Train, loss is: 0.00617, psnr is 43.99210, ssim is 0.97135
+2024-05-02 19:41:09,621 - LF_InterNet - INFO - Saving the epoch_04 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_04_model.pth
+2024-05-02 19:41:40,114 - LF_InterNet - INFO - The 4th Test on Stanford_Gantry, psnr/ssim is 33.27/0.923
+2024-05-02 19:42:47,327 - LF_InterNet - INFO - The 4th Test on HCI_new, psnr/ssim is 33.42/0.889
+2024-05-02 19:42:47,327 - LF_InterNet - INFO - The mean psnr on testsets is 33.34476, mean ssim is 0.90590
+2024-05-02 19:42:47,328 - LF_InterNet - INFO - 
+Epoch 5 /51:
+2024-05-02 20:09:14,113 - LF_InterNet - INFO - The 5th Train, loss is: 0.00590, psnr is 44.35564, ssim is 0.97391
+2024-05-02 20:09:14,156 - LF_InterNet - INFO - Saving the epoch_05 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_05_model.pth
+2024-05-02 20:09:43,163 - LF_InterNet - INFO - The 5th Test on Stanford_Gantry, psnr/ssim is 34.51/0.938
+2024-05-02 20:10:47,090 - LF_InterNet - INFO - The 5th Test on HCI_new, psnr/ssim is 34.46/0.908
+2024-05-02 20:10:47,090 - LF_InterNet - INFO - The mean psnr on testsets is 34.48174, mean ssim is 0.92272
+2024-05-02 20:10:47,091 - LF_InterNet - INFO - 
+Epoch 6 /51:
+2024-05-02 20:37:06,325 - LF_InterNet - INFO - The 6th Train, loss is: 0.00557, psnr is 44.80429, ssim is 0.97685
+2024-05-02 20:37:06,361 - LF_InterNet - INFO - Saving the epoch_06 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_06_model.pth
+2024-05-02 20:37:36,042 - LF_InterNet - INFO - The 6th Test on Stanford_Gantry, psnr/ssim is 36.36/0.976
+2024-05-02 20:38:41,079 - LF_InterNet - INFO - The 6th Test on HCI_new, psnr/ssim is 35.64/0.938
+2024-05-02 20:38:41,080 - LF_InterNet - INFO - The mean psnr on testsets is 35.99834, mean ssim is 0.95683
+2024-05-02 20:38:41,082 - LF_InterNet - INFO - 
+Epoch 7 /51:
+2024-05-02 21:05:32,155 - LF_InterNet - INFO - The 7th Train, loss is: 0.00540, psnr is 45.03362, ssim is 0.97825
+2024-05-02 21:05:32,213 - LF_InterNet - INFO - Saving the epoch_07 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_07_model.pth
+2024-05-02 21:06:03,063 - LF_InterNet - INFO - The 7th Test on Stanford_Gantry, psnr/ssim is 36.32/0.977
+2024-05-02 21:07:05,705 - LF_InterNet - INFO - The 7th Test on HCI_new, psnr/ssim is 35.62/0.940
+2024-05-02 21:07:05,705 - LF_InterNet - INFO - The mean psnr on testsets is 35.97160, mean ssim is 0.95857
+2024-05-02 21:07:05,707 - LF_InterNet - INFO - 
+Epoch 8 /51:
+2024-05-02 21:33:43,815 - LF_InterNet - INFO - The 8th Train, loss is: 0.00523, psnr is 45.26926, ssim is 0.97899
+2024-05-02 21:33:43,875 - LF_InterNet - INFO - Saving the epoch_08 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_08_model.pth
+2024-05-02 21:34:12,668 - LF_InterNet - INFO - The 8th Test on Stanford_Gantry, psnr/ssim is 36.59/0.976
+2024-05-02 21:35:16,025 - LF_InterNet - INFO - The 8th Test on HCI_new, psnr/ssim is 35.80/0.940
+2024-05-02 21:35:16,025 - LF_InterNet - INFO - The mean psnr on testsets is 36.19718, mean ssim is 0.95812
+2024-05-02 21:35:16,026 - LF_InterNet - INFO - 
+Epoch 9 /51:
+2024-05-02 22:01:40,499 - LF_InterNet - INFO - The 9th Train, loss is: 0.00516, psnr is 45.37645, ssim is 0.97999
+2024-05-02 22:01:40,544 - LF_InterNet - INFO - Saving the epoch_09 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_09_model.pth
+2024-05-02 22:02:10,207 - LF_InterNet - INFO - The 9th Test on Stanford_Gantry, psnr/ssim is 35.30/0.944
+2024-05-02 22:03:15,915 - LF_InterNet - INFO - The 9th Test on HCI_new, psnr/ssim is 34.90/0.916
+2024-05-02 22:03:15,915 - LF_InterNet - INFO - The mean psnr on testsets is 35.09784, mean ssim is 0.92970
+2024-05-02 22:03:15,916 - LF_InterNet - INFO - 
+Epoch 10 /51:
+2024-05-02 22:28:13,110 - LF_InterNet - INFO - The 10th Train, loss is: 0.00503, psnr is 45.57196, ssim is 0.98060
+2024-05-02 22:28:13,140 - LF_InterNet - INFO - Saving the epoch_10 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_10_model.pth
+2024-05-02 22:28:37,921 - LF_InterNet - INFO - The 10th Test on Stanford_Gantry, psnr/ssim is 37.18/0.980
+2024-05-02 22:29:32,230 - LF_InterNet - INFO - The 10th Test on HCI_new, psnr/ssim is 36.16/0.944
+2024-05-02 22:29:32,230 - LF_InterNet - INFO - The mean psnr on testsets is 36.66907, mean ssim is 0.96195
+2024-05-02 22:29:32,231 - LF_InterNet - INFO - 
+Epoch 11 /51:
+2024-05-02 22:53:35,619 - LF_InterNet - INFO - The 11th Train, loss is: 0.00503, psnr is 45.55465, ssim is 0.98083
+2024-05-02 22:53:35,648 - LF_InterNet - INFO - Saving the epoch_11 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_11_model.pth
+2024-05-02 22:53:59,500 - LF_InterNet - INFO - The 11th Test on Stanford_Gantry, psnr/ssim is 37.17/0.979
+2024-05-02 22:54:53,152 - LF_InterNet - INFO - The 11th Test on HCI_new, psnr/ssim is 36.18/0.944
+2024-05-02 22:54:53,153 - LF_InterNet - INFO - The mean psnr on testsets is 36.67713, mean ssim is 0.96183
+2024-05-02 22:54:53,153 - LF_InterNet - INFO - 
+Epoch 12 /51:
+2024-05-02 23:19:35,501 - LF_InterNet - INFO - The 12th Train, loss is: 0.00491, psnr is 45.74387, ssim is 0.98118
+2024-05-02 23:19:35,548 - LF_InterNet - INFO - Saving the epoch_12 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_12_model.pth
+2024-05-02 23:20:08,777 - LF_InterNet - INFO - The 12th Test on Stanford_Gantry, psnr/ssim is 37.19/0.977
+2024-05-02 23:21:26,219 - LF_InterNet - INFO - The 12th Test on HCI_new, psnr/ssim is 36.14/0.942
+2024-05-02 23:21:26,219 - LF_InterNet - INFO - The mean psnr on testsets is 36.66496, mean ssim is 0.95980
+2024-05-02 23:21:26,220 - LF_InterNet - INFO - 
+Epoch 13 /51:
+2024-05-02 23:48:08,625 - LF_InterNet - INFO - The 13th Train, loss is: 0.00486, psnr is 45.84653, ssim is 0.98187
+2024-05-02 23:48:08,680 - LF_InterNet - INFO - Saving the epoch_13 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_13_model.pth
+2024-05-02 23:48:44,517 - LF_InterNet - INFO - The 13th Test on Stanford_Gantry, psnr/ssim is 37.43/0.981
+2024-05-02 23:49:58,657 - LF_InterNet - INFO - The 13th Test on HCI_new, psnr/ssim is 36.38/0.947
+2024-05-02 23:49:58,658 - LF_InterNet - INFO - The mean psnr on testsets is 36.90380, mean ssim is 0.96426
+2024-05-02 23:49:58,660 - LF_InterNet - INFO - 
+Epoch 14 /51:
+2024-05-03 00:16:52,757 - LF_InterNet - INFO - The 14th Train, loss is: 0.00485, psnr is 45.84368, ssim is 0.98187
+2024-05-03 00:16:52,810 - LF_InterNet - INFO - Saving the epoch_14 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_14_model.pth
+2024-05-03 00:17:27,445 - LF_InterNet - INFO - The 14th Test on Stanford_Gantry, psnr/ssim is 37.46/0.981
+2024-05-03 00:18:40,991 - LF_InterNet - INFO - The 14th Test on HCI_new, psnr/ssim is 36.43/0.947
+2024-05-03 00:18:40,991 - LF_InterNet - INFO - The mean psnr on testsets is 36.94551, mean ssim is 0.96401
+2024-05-03 00:18:40,992 - LF_InterNet - INFO - 
+Epoch 15 /51:
+2024-05-03 00:45:33,166 - LF_InterNet - INFO - The 15th Train, loss is: 0.00480, psnr is 45.93804, ssim is 0.98195
+2024-05-03 00:45:33,230 - LF_InterNet - INFO - Saving the epoch_15 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_15_model.pth
+2024-05-03 00:46:04,555 - LF_InterNet - INFO - The 15th Test on Stanford_Gantry, psnr/ssim is 37.65/0.981
+2024-05-03 00:47:14,888 - LF_InterNet - INFO - The 15th Test on HCI_new, psnr/ssim is 36.45/0.947
+2024-05-03 00:47:14,888 - LF_InterNet - INFO - The mean psnr on testsets is 37.04531, mean ssim is 0.96425
+2024-05-03 00:47:14,890 - LF_InterNet - INFO - 
+Epoch 16 /51:
+2024-05-03 01:14:16,859 - LF_InterNet - INFO - The 16th Train, loss is: 0.00452, psnr is 46.45222, ssim is 0.98321
+2024-05-03 01:14:16,914 - LF_InterNet - INFO - Saving the epoch_16 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_16_model.pth
+2024-05-03 01:14:49,809 - LF_InterNet - INFO - The 16th Test on Stanford_Gantry, psnr/ssim is 37.98/0.984
+2024-05-03 01:15:56,205 - LF_InterNet - INFO - The 16th Test on HCI_new, psnr/ssim is 36.61/0.949
+2024-05-03 01:15:56,206 - LF_InterNet - INFO - The mean psnr on testsets is 37.29197, mean ssim is 0.96644
+2024-05-03 01:15:56,208 - LF_InterNet - INFO - 
+Epoch 17 /51:
+2024-05-03 01:42:43,776 - LF_InterNet - INFO - The 17th Train, loss is: 0.00453, psnr is 46.42746, ssim is 0.98314
+2024-05-03 01:42:43,833 - LF_InterNet - INFO - Saving the epoch_17 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_17_model.pth
+2024-05-03 01:43:16,851 - LF_InterNet - INFO - The 17th Test on Stanford_Gantry, psnr/ssim is 37.93/0.984
+2024-05-03 01:44:23,980 - LF_InterNet - INFO - The 17th Test on HCI_new, psnr/ssim is 36.57/0.949
+2024-05-03 01:44:23,980 - LF_InterNet - INFO - The mean psnr on testsets is 37.24947, mean ssim is 0.96642
+2024-05-03 01:44:23,981 - LF_InterNet - INFO - 
+Epoch 18 /51:
+2024-05-03 02:11:23,610 - LF_InterNet - INFO - The 18th Train, loss is: 0.00449, psnr is 46.49399, ssim is 0.98343
+2024-05-03 02:11:23,650 - LF_InterNet - INFO - Saving the epoch_18 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_18_model.pth
+2024-05-03 02:11:54,371 - LF_InterNet - INFO - The 18th Test on Stanford_Gantry, psnr/ssim is 37.88/0.983
+2024-05-03 02:13:00,950 - LF_InterNet - INFO - The 18th Test on HCI_new, psnr/ssim is 36.67/0.950
+2024-05-03 02:13:00,951 - LF_InterNet - INFO - The mean psnr on testsets is 37.27818, mean ssim is 0.96667
+2024-05-03 02:13:00,952 - LF_InterNet - INFO - 
+Epoch 19 /51:
+2024-05-03 02:40:05,125 - LF_InterNet - INFO - The 19th Train, loss is: 0.00448, psnr is 46.50185, ssim is 0.98347
+2024-05-03 02:40:05,166 - LF_InterNet - INFO - Saving the epoch_19 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_19_model.pth
+2024-05-03 02:40:35,478 - LF_InterNet - INFO - The 19th Test on Stanford_Gantry, psnr/ssim is 38.14/0.984
+2024-05-03 02:41:43,749 - LF_InterNet - INFO - The 19th Test on HCI_new, psnr/ssim is 36.62/0.950
+2024-05-03 02:41:43,749 - LF_InterNet - INFO - The mean psnr on testsets is 37.38031, mean ssim is 0.96705
+2024-05-03 02:41:43,750 - LF_InterNet - INFO - 
+Epoch 20 /51:
+2024-05-03 03:08:38,178 - LF_InterNet - INFO - The 20th Train, loss is: 0.00446, psnr is 46.53689, ssim is 0.98361
+2024-05-03 03:08:38,228 - LF_InterNet - INFO - Saving the epoch_20 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_20_model.pth
+2024-05-03 03:09:07,972 - LF_InterNet - INFO - The 20th Test on Stanford_Gantry, psnr/ssim is 38.12/0.984
+2024-05-03 03:10:18,407 - LF_InterNet - INFO - The 20th Test on HCI_new, psnr/ssim is 36.73/0.951
+2024-05-03 03:10:18,407 - LF_InterNet - INFO - The mean psnr on testsets is 37.42481, mean ssim is 0.96747
+2024-05-03 03:10:18,409 - LF_InterNet - INFO - 
+Epoch 21 /51:
+2024-05-03 03:36:57,319 - LF_InterNet - INFO - The 21th Train, loss is: 0.00448, psnr is 46.50340, ssim is 0.98365
+2024-05-03 03:36:57,382 - LF_InterNet - INFO - Saving the epoch_21 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_21_model.pth
+2024-05-03 03:37:27,913 - LF_InterNet - INFO - The 21th Test on Stanford_Gantry, psnr/ssim is 38.01/0.985
+2024-05-03 03:38:39,713 - LF_InterNet - INFO - The 21th Test on HCI_new, psnr/ssim is 36.57/0.951
+2024-05-03 03:38:39,713 - LF_InterNet - INFO - The mean psnr on testsets is 37.28769, mean ssim is 0.96781
+2024-05-03 03:38:39,714 - LF_InterNet - INFO - 
+Epoch 22 /51:
+2024-05-03 04:05:33,859 - LF_InterNet - INFO - The 22th Train, loss is: 0.00446, psnr is 46.54048, ssim is 0.98380
+2024-05-03 04:05:33,904 - LF_InterNet - INFO - Saving the epoch_22 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_22_model.pth
+2024-05-03 04:06:02,156 - LF_InterNet - INFO - The 22th Test on Stanford_Gantry, psnr/ssim is 38.09/0.984
+2024-05-03 04:07:19,123 - LF_InterNet - INFO - The 22th Test on HCI_new, psnr/ssim is 36.71/0.950
+2024-05-03 04:07:19,123 - LF_InterNet - INFO - The mean psnr on testsets is 37.39937, mean ssim is 0.96719
+2024-05-03 04:07:19,124 - LF_InterNet - INFO - 
+Epoch 23 /51:
+2024-05-03 04:34:21,397 - LF_InterNet - INFO - The 23th Train, loss is: 0.00444, psnr is 46.56365, ssim is 0.98386
+2024-05-03 04:34:21,446 - LF_InterNet - INFO - Saving the epoch_23 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_23_model.pth
+2024-05-03 04:34:54,660 - LF_InterNet - INFO - The 23th Test on Stanford_Gantry, psnr/ssim is 38.06/0.984
+2024-05-03 04:36:10,817 - LF_InterNet - INFO - The 23th Test on HCI_new, psnr/ssim is 36.74/0.951
+2024-05-03 04:36:10,818 - LF_InterNet - INFO - The mean psnr on testsets is 37.40224, mean ssim is 0.96770
+2024-05-03 04:36:10,819 - LF_InterNet - INFO - 
+Epoch 24 /51:
+2024-05-03 05:03:02,137 - LF_InterNet - INFO - The 24th Train, loss is: 0.00442, psnr is 46.60805, ssim is 0.98390
+2024-05-03 05:03:02,216 - LF_InterNet - INFO - Saving the epoch_24 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_24_model.pth
+2024-05-03 05:03:35,529 - LF_InterNet - INFO - The 24th Test on Stanford_Gantry, psnr/ssim is 38.26/0.985
+2024-05-03 05:04:49,514 - LF_InterNet - INFO - The 24th Test on HCI_new, psnr/ssim is 36.78/0.951
+2024-05-03 05:04:49,515 - LF_InterNet - INFO - The mean psnr on testsets is 37.52137, mean ssim is 0.96785
+2024-05-03 05:04:49,517 - LF_InterNet - INFO - 
+Epoch 25 /51:
+2024-05-03 05:31:52,914 - LF_InterNet - INFO - The 25th Train, loss is: 0.00440, psnr is 46.63314, ssim is 0.98399
+2024-05-03 05:31:52,993 - LF_InterNet - INFO - Saving the epoch_25 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_25_model.pth
+2024-05-03 05:32:27,516 - LF_InterNet - INFO - The 25th Test on Stanford_Gantry, psnr/ssim is 38.29/0.984
+2024-05-03 05:33:36,339 - LF_InterNet - INFO - The 25th Test on HCI_new, psnr/ssim is 36.78/0.951
+2024-05-03 05:33:36,340 - LF_InterNet - INFO - The mean psnr on testsets is 37.53140, mean ssim is 0.96757
+2024-05-03 05:33:36,341 - LF_InterNet - INFO - 
+Epoch 26 /51:
+2024-05-03 06:00:36,778 - LF_InterNet - INFO - The 26th Train, loss is: 0.00440, psnr is 46.63942, ssim is 0.98398
+2024-05-03 06:00:36,822 - LF_InterNet - INFO - Saving the epoch_26 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_26_model.pth
+2024-05-03 06:01:08,236 - LF_InterNet - INFO - The 26th Test on Stanford_Gantry, psnr/ssim is 38.21/0.985
+2024-05-03 06:02:15,184 - LF_InterNet - INFO - The 26th Test on HCI_new, psnr/ssim is 36.79/0.951
+2024-05-03 06:02:15,184 - LF_InterNet - INFO - The mean psnr on testsets is 37.49693, mean ssim is 0.96782
+2024-05-03 06:02:15,185 - LF_InterNet - INFO - 
+Epoch 27 /51:
+2024-05-03 06:28:47,196 - LF_InterNet - INFO - The 27th Train, loss is: 0.00441, psnr is 46.61062, ssim is 0.98407
+2024-05-03 06:28:47,259 - LF_InterNet - INFO - Saving the epoch_27 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_27_model.pth
+2024-05-03 06:29:21,317 - LF_InterNet - INFO - The 27th Test on Stanford_Gantry, psnr/ssim is 38.30/0.985
+2024-05-03 06:30:28,804 - LF_InterNet - INFO - The 27th Test on HCI_new, psnr/ssim is 36.83/0.952
+2024-05-03 06:30:28,805 - LF_InterNet - INFO - The mean psnr on testsets is 37.56661, mean ssim is 0.96815
+2024-05-03 06:30:28,806 - LF_InterNet - INFO - 
+Epoch 28 /51:
+2024-05-03 06:57:12,097 - LF_InterNet - INFO - The 28th Train, loss is: 0.00438, psnr is 46.65701, ssim is 0.98412
+2024-05-03 06:57:12,150 - LF_InterNet - INFO - Saving the epoch_28 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_28_model.pth
+2024-05-03 06:57:46,707 - LF_InterNet - INFO - The 28th Test on Stanford_Gantry, psnr/ssim is 38.30/0.985
+2024-05-03 06:58:53,653 - LF_InterNet - INFO - The 28th Test on HCI_new, psnr/ssim is 36.78/0.952
+2024-05-03 06:58:53,653 - LF_InterNet - INFO - The mean psnr on testsets is 37.53797, mean ssim is 0.96875
+2024-05-03 06:58:53,654 - LF_InterNet - INFO - 
+Epoch 29 /51:
+2024-05-03 07:25:43,219 - LF_InterNet - INFO - The 29th Train, loss is: 0.00435, psnr is 46.71950, ssim is 0.98415
+2024-05-03 07:25:43,289 - LF_InterNet - INFO - Saving the epoch_29 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_29_model.pth
+2024-05-03 07:26:15,553 - LF_InterNet - INFO - The 29th Test on Stanford_Gantry, psnr/ssim is 38.45/0.985
+2024-05-03 07:27:22,162 - LF_InterNet - INFO - The 29th Test on HCI_new, psnr/ssim is 36.92/0.952
+2024-05-03 07:27:22,162 - LF_InterNet - INFO - The mean psnr on testsets is 37.68111, mean ssim is 0.96852
+2024-05-03 07:27:22,163 - LF_InterNet - INFO - 
+Epoch 30 /51:
+2024-05-03 07:54:27,335 - LF_InterNet - INFO - The 30th Train, loss is: 0.00438, psnr is 46.65311, ssim is 0.98420
+2024-05-03 07:54:27,396 - LF_InterNet - INFO - Saving the epoch_30 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_30_model.pth
+2024-05-03 07:54:56,961 - LF_InterNet - INFO - The 30th Test on Stanford_Gantry, psnr/ssim is 38.34/0.985
+2024-05-03 07:56:04,145 - LF_InterNet - INFO - The 30th Test on HCI_new, psnr/ssim is 36.89/0.952
+2024-05-03 07:56:04,146 - LF_InterNet - INFO - The mean psnr on testsets is 37.61144, mean ssim is 0.96844
+2024-05-03 07:56:04,147 - LF_InterNet - INFO - 
+Epoch 31 /51:
+2024-05-03 08:22:43,416 - LF_InterNet - INFO - The 31th Train, loss is: 0.00426, psnr is 46.90124, ssim is 0.98451
+2024-05-03 08:22:43,456 - LF_InterNet - INFO - Saving the epoch_31 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_31_model.pth
+2024-05-03 08:23:13,267 - LF_InterNet - INFO - The 31th Test on Stanford_Gantry, psnr/ssim is 38.49/0.986
+2024-05-03 08:24:20,378 - LF_InterNet - INFO - The 31th Test on HCI_new, psnr/ssim is 36.93/0.952
+2024-05-03 08:24:20,378 - LF_InterNet - INFO - The mean psnr on testsets is 37.70955, mean ssim is 0.96907
+2024-05-03 08:24:20,379 - LF_InterNet - INFO - 
+Epoch 32 /51:
+2024-05-03 08:50:54,633 - LF_InterNet - INFO - The 32th Train, loss is: 0.00427, psnr is 46.87044, ssim is 0.98455
+2024-05-03 08:50:54,682 - LF_InterNet - INFO - Saving the epoch_32 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_32_model.pth
+2024-05-03 08:51:25,290 - LF_InterNet - INFO - The 32th Test on Stanford_Gantry, psnr/ssim is 38.49/0.985
+2024-05-03 08:52:31,071 - LF_InterNet - INFO - The 32th Test on HCI_new, psnr/ssim is 36.94/0.953
+2024-05-03 08:52:31,072 - LF_InterNet - INFO - The mean psnr on testsets is 37.71542, mean ssim is 0.96901
+2024-05-03 08:52:31,075 - LF_InterNet - INFO - 
+Epoch 33 /51:
+2024-05-03 09:19:17,189 - LF_InterNet - INFO - The 33th Train, loss is: 0.00426, psnr is 46.88932, ssim is 0.98455
+2024-05-03 09:19:17,231 - LF_InterNet - INFO - Saving the epoch_33 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_33_model.pth
+2024-05-03 09:19:47,543 - LF_InterNet - INFO - The 33th Test on Stanford_Gantry, psnr/ssim is 38.53/0.986
+2024-05-03 09:20:52,477 - LF_InterNet - INFO - The 33th Test on HCI_new, psnr/ssim is 36.96/0.953
+2024-05-03 09:20:52,478 - LF_InterNet - INFO - The mean psnr on testsets is 37.74590, mean ssim is 0.96914
+2024-05-03 09:20:52,480 - LF_InterNet - INFO - 
+Epoch 34 /51:
+2024-05-03 09:47:47,283 - LF_InterNet - INFO - The 34th Train, loss is: 0.00427, psnr is 46.88116, ssim is 0.98461
+2024-05-03 09:47:47,329 - LF_InterNet - INFO - Saving the epoch_34 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_34_model.pth
+2024-05-03 09:48:15,992 - LF_InterNet - INFO - The 34th Test on Stanford_Gantry, psnr/ssim is 38.63/0.986
+2024-05-03 09:49:22,458 - LF_InterNet - INFO - The 34th Test on HCI_new, psnr/ssim is 37.02/0.953
+2024-05-03 09:49:22,460 - LF_InterNet - INFO - The mean psnr on testsets is 37.82152, mean ssim is 0.96968
+2024-05-03 09:49:22,464 - LF_InterNet - INFO - 
+Epoch 35 /51:
+2024-05-03 10:16:01,721 - LF_InterNet - INFO - The 35th Train, loss is: 0.00425, psnr is 46.91457, ssim is 0.98464
+2024-05-03 10:16:01,777 - LF_InterNet - INFO - Saving the epoch_35 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_35_model.pth
+2024-05-03 10:16:29,939 - LF_InterNet - INFO - The 35th Test on Stanford_Gantry, psnr/ssim is 38.57/0.986
+2024-05-03 10:17:37,752 - LF_InterNet - INFO - The 35th Test on HCI_new, psnr/ssim is 36.97/0.953
+2024-05-03 10:17:37,752 - LF_InterNet - INFO - The mean psnr on testsets is 37.76749, mean ssim is 0.96940
+2024-05-03 10:17:37,753 - LF_InterNet - INFO - 
+Epoch 36 /51:
+2024-05-03 10:44:38,754 - LF_InterNet - INFO - The 36th Train, loss is: 0.00426, psnr is 46.89670, ssim is 0.98465
+2024-05-03 10:44:38,801 - LF_InterNet - INFO - Saving the epoch_36 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_36_model.pth
+2024-05-03 10:45:09,201 - LF_InterNet - INFO - The 36th Test on Stanford_Gantry, psnr/ssim is 38.59/0.986
+2024-05-03 10:46:19,613 - LF_InterNet - INFO - The 36th Test on HCI_new, psnr/ssim is 37.01/0.953
+2024-05-03 10:46:19,613 - LF_InterNet - INFO - The mean psnr on testsets is 37.79726, mean ssim is 0.96961
+2024-05-03 10:46:19,614 - LF_InterNet - INFO - 
+Epoch 37 /51:
+2024-05-03 11:13:08,005 - LF_InterNet - INFO - The 37th Train, loss is: 0.00425, psnr is 46.91382, ssim is 0.98470
+2024-05-03 11:13:08,054 - LF_InterNet - INFO - Saving the epoch_37 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_37_model.pth
+2024-05-03 11:13:37,848 - LF_InterNet - INFO - The 37th Test on Stanford_Gantry, psnr/ssim is 38.50/0.986
+2024-05-03 11:14:51,179 - LF_InterNet - INFO - The 37th Test on HCI_new, psnr/ssim is 36.98/0.953
+2024-05-03 11:14:51,180 - LF_InterNet - INFO - The mean psnr on testsets is 37.73967, mean ssim is 0.96931
+2024-05-03 11:14:51,181 - LF_InterNet - INFO - 
+Epoch 38 /51:
+2024-05-03 11:41:45,778 - LF_InterNet - INFO - The 38th Train, loss is: 0.00424, psnr is 46.93453, ssim is 0.98471
+2024-05-03 11:41:45,822 - LF_InterNet - INFO - Saving the epoch_38 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_38_model.pth
+2024-05-03 11:42:15,130 - LF_InterNet - INFO - The 38th Test on Stanford_Gantry, psnr/ssim is 38.54/0.986
+2024-05-03 11:43:30,287 - LF_InterNet - INFO - The 38th Test on HCI_new, psnr/ssim is 37.02/0.953
+2024-05-03 11:43:30,287 - LF_InterNet - INFO - The mean psnr on testsets is 37.77655, mean ssim is 0.96955
+2024-05-03 11:43:30,288 - LF_InterNet - INFO - 
+Epoch 39 /51:
+2024-05-03 12:07:57,016 - LF_InterNet - INFO - The 39th Train, loss is: 0.00425, psnr is 46.90055, ssim is 0.98472
+2024-05-03 12:07:57,046 - LF_InterNet - INFO - Saving the epoch_39 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_39_model.pth
+2024-05-03 12:08:22,244 - LF_InterNet - INFO - The 39th Test on Stanford_Gantry, psnr/ssim is 38.61/0.986
+2024-05-03 12:09:16,761 - LF_InterNet - INFO - The 39th Test on HCI_new, psnr/ssim is 37.02/0.953
+2024-05-03 12:09:16,761 - LF_InterNet - INFO - The mean psnr on testsets is 37.81449, mean ssim is 0.96967
+2024-05-03 12:09:16,762 - LF_InterNet - INFO - 
+Epoch 40 /51:
+2024-05-03 12:33:14,539 - LF_InterNet - INFO - The 40th Train, loss is: 0.00423, psnr is 46.95327, ssim is 0.98474
+2024-05-03 12:33:14,571 - LF_InterNet - INFO - Saving the epoch_40 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_40_model.pth
+2024-05-03 12:33:40,072 - LF_InterNet - INFO - The 40th Test on Stanford_Gantry, psnr/ssim is 38.63/0.986
+2024-05-03 12:34:34,034 - LF_InterNet - INFO - The 40th Test on HCI_new, psnr/ssim is 37.01/0.953
+2024-05-03 12:34:34,034 - LF_InterNet - INFO - The mean psnr on testsets is 37.81835, mean ssim is 0.96951
+2024-05-03 12:34:34,035 - LF_InterNet - INFO - 
+Epoch 41 /51:
+2024-05-03 12:58:47,439 - LF_InterNet - INFO - The 41th Train, loss is: 0.00424, psnr is 46.93070, ssim is 0.98475
+2024-05-03 12:58:47,470 - LF_InterNet - INFO - Saving the epoch_41 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_41_model.pth
+2024-05-03 12:59:13,040 - LF_InterNet - INFO - The 41th Test on Stanford_Gantry, psnr/ssim is 38.62/0.986
+2024-05-03 13:00:07,059 - LF_InterNet - INFO - The 41th Test on HCI_new, psnr/ssim is 37.03/0.953
+2024-05-03 13:00:07,059 - LF_InterNet - INFO - The mean psnr on testsets is 37.82018, mean ssim is 0.96964
+2024-05-03 13:00:07,060 - LF_InterNet - INFO - 
+Epoch 42 /51:
+2024-05-03 13:24:53,380 - LF_InterNet - INFO - The 42th Train, loss is: 0.00423, psnr is 46.93650, ssim is 0.98481
+2024-05-03 13:24:53,420 - LF_InterNet - INFO - Saving the epoch_42 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_42_model.pth
+2024-05-03 13:25:20,900 - LF_InterNet - INFO - The 42th Test on Stanford_Gantry, psnr/ssim is 38.66/0.986
+2024-05-03 13:26:37,236 - LF_InterNet - INFO - The 42th Test on HCI_new, psnr/ssim is 37.06/0.954
+2024-05-03 13:26:37,237 - LF_InterNet - INFO - The mean psnr on testsets is 37.85905, mean ssim is 0.96983
+2024-05-03 13:26:37,239 - LF_InterNet - INFO - 
+Epoch 43 /51:
+2024-05-03 13:53:19,098 - LF_InterNet - INFO - The 43th Train, loss is: 0.00422, psnr is 46.96776, ssim is 0.98482
+2024-05-03 13:53:19,151 - LF_InterNet - INFO - Saving the epoch_43 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_43_model.pth
+2024-05-03 13:53:47,585 - LF_InterNet - INFO - The 43th Test on Stanford_Gantry, psnr/ssim is 38.66/0.986
+2024-05-03 13:55:04,919 - LF_InterNet - INFO - The 43th Test on HCI_new, psnr/ssim is 37.04/0.954
+2024-05-03 13:55:04,921 - LF_InterNet - INFO - The mean psnr on testsets is 37.85027, mean ssim is 0.96991
+2024-05-03 13:55:04,930 - LF_InterNet - INFO - 
+Epoch 44 /51:
+2024-05-03 14:22:02,946 - LF_InterNet - INFO - The 44th Train, loss is: 0.00423, psnr is 46.95004, ssim is 0.98483
+2024-05-03 14:22:03,007 - LF_InterNet - INFO - Saving the epoch_44 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_44_model.pth
+2024-05-03 14:22:36,907 - LF_InterNet - INFO - The 44th Test on Stanford_Gantry, psnr/ssim is 38.67/0.986
+2024-05-03 14:23:50,683 - LF_InterNet - INFO - The 44th Test on HCI_new, psnr/ssim is 37.04/0.954
+2024-05-03 14:23:50,684 - LF_InterNet - INFO - The mean psnr on testsets is 37.85517, mean ssim is 0.96987
+2024-05-03 14:23:50,685 - LF_InterNet - INFO - 
+Epoch 45 /51:
+2024-05-03 14:50:52,304 - LF_InterNet - INFO - The 45th Train, loss is: 0.00422, psnr is 46.96385, ssim is 0.98485
+2024-05-03 14:50:52,412 - LF_InterNet - INFO - Saving the epoch_45 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_45_model.pth
+2024-05-03 14:51:26,213 - LF_InterNet - INFO - The 45th Test on Stanford_Gantry, psnr/ssim is 38.66/0.986
+2024-05-03 14:52:40,095 - LF_InterNet - INFO - The 45th Test on HCI_new, psnr/ssim is 37.05/0.954
+2024-05-03 14:52:40,095 - LF_InterNet - INFO - The mean psnr on testsets is 37.85595, mean ssim is 0.96993
+2024-05-03 14:52:40,096 - LF_InterNet - INFO - 
+Epoch 46 /51:
+2024-05-03 15:19:45,247 - LF_InterNet - INFO - The 46th Train, loss is: 0.00418, psnr is 47.04370, ssim is 0.98499
+2024-05-03 15:19:45,321 - LF_InterNet - INFO - Saving the epoch_46 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_46_model.pth
+2024-05-03 15:20:19,066 - LF_InterNet - INFO - The 46th Test on Stanford_Gantry, psnr/ssim is 38.74/0.986
+2024-05-03 15:21:28,222 - LF_InterNet - INFO - The 46th Test on HCI_new, psnr/ssim is 37.08/0.954
+2024-05-03 15:21:28,222 - LF_InterNet - INFO - The mean psnr on testsets is 37.91167, mean ssim is 0.97014
+2024-05-03 15:21:28,223 - LF_InterNet - INFO - 
+Epoch 47 /51:
+2024-05-03 15:48:27,247 - LF_InterNet - INFO - The 47th Train, loss is: 0.00418, psnr is 47.04369, ssim is 0.98499
+2024-05-03 15:48:27,371 - LF_InterNet - INFO - Saving the epoch_47 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_47_model.pth
+2024-05-03 15:49:01,094 - LF_InterNet - INFO - The 47th Test on Stanford_Gantry, psnr/ssim is 38.70/0.986
+2024-05-03 15:50:07,204 - LF_InterNet - INFO - The 47th Test on HCI_new, psnr/ssim is 37.09/0.954
+2024-05-03 15:50:07,205 - LF_InterNet - INFO - The mean psnr on testsets is 37.89588, mean ssim is 0.97017
+2024-05-03 15:50:07,207 - LF_InterNet - INFO - 
+Epoch 48 /51:
+2024-05-03 16:17:23,020 - LF_InterNet - INFO - The 48th Train, loss is: 0.00418, psnr is 47.04930, ssim is 0.98501
+2024-05-03 16:17:23,128 - LF_InterNet - INFO - Saving the epoch_48 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_48_model.pth
+2024-05-03 16:17:54,572 - LF_InterNet - INFO - The 48th Test on Stanford_Gantry, psnr/ssim is 38.74/0.986
+2024-05-03 16:19:00,640 - LF_InterNet - INFO - The 48th Test on HCI_new, psnr/ssim is 37.10/0.954
+2024-05-03 16:19:00,641 - LF_InterNet - INFO - The mean psnr on testsets is 37.91750, mean ssim is 0.97015
+2024-05-03 16:19:00,642 - LF_InterNet - INFO - 
+Epoch 49 /51:
+2024-05-03 16:46:01,863 - LF_InterNet - INFO - The 49th Train, loss is: 0.00417, psnr is 47.05637, ssim is 0.98502
+2024-05-03 16:46:01,958 - LF_InterNet - INFO - Saving the epoch_49 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_49_model.pth
+2024-05-03 16:46:33,330 - LF_InterNet - INFO - The 49th Test on Stanford_Gantry, psnr/ssim is 38.72/0.986
+2024-05-03 16:47:41,700 - LF_InterNet - INFO - The 49th Test on HCI_new, psnr/ssim is 37.09/0.954
+2024-05-03 16:47:41,701 - LF_InterNet - INFO - The mean psnr on testsets is 37.90688, mean ssim is 0.97017
+2024-05-03 16:47:41,703 - LF_InterNet - INFO - 
+Epoch 50 /51:
+2024-05-03 17:14:40,496 - LF_InterNet - INFO - The 50th Train, loss is: 0.00418, psnr is 47.05113, ssim is 0.98503
+2024-05-03 17:14:40,569 - LF_InterNet - INFO - Saving the epoch_50 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_50_model.pth
+2024-05-03 17:15:10,764 - LF_InterNet - INFO - The 50th Test on Stanford_Gantry, psnr/ssim is 38.71/0.986
+2024-05-03 17:16:19,946 - LF_InterNet - INFO - The 50th Test on HCI_new, psnr/ssim is 37.10/0.954
+2024-05-03 17:16:19,947 - LF_InterNet - INFO - The mean psnr on testsets is 37.90508, mean ssim is 0.97014
+2024-05-03 17:16:19,950 - LF_InterNet - INFO - 
+Epoch 51 /51:
+2024-05-03 17:43:13,372 - LF_InterNet - INFO - The 51th Train, loss is: 0.00417, psnr is 47.05583, ssim is 0.98504
+2024-05-03 17:43:13,429 - LF_InterNet - INFO - Saving the epoch_51 model at log/SR_5x5_2x/ALL/LF_InterNet/checkpoints/LF_InterNet_5x5_2x_epoch_51_model.pth
+2024-05-03 17:43:43,498 - LF_InterNet - INFO - The 51th Test on Stanford_Gantry, psnr/ssim is 38.74/0.986
+2024-05-03 17:44:50,005 - LF_InterNet - INFO - The 51th Test on HCI_new, psnr/ssim is 37.11/0.954
+2024-05-03 17:44:50,006 - LF_InterNet - INFO - The mean psnr on testsets is 37.92415, mean ssim is 0.97032
+2024-06-04 13:09:48,126 - LF_InterNet - INFO - 

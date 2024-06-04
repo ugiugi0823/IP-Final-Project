@@ -1,1 +1,8 @@
-log/
+log/SR_5x5_2x/ALL/LF_InterNet2
+log/SR_5x5_2x/ALL/LF_InterNet/results
+log/SR_5x5_2x/ALL/LF_InterNet/checkpoints
+log/SR_5x5_2x/ALL/DistgSSR/results
+log/SR_5x5_2x/ALL/DistgSSR/checkpoints
+
+
+
